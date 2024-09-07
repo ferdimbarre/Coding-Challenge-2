@@ -14,5 +14,5 @@ console.log(calculateTip);
 
 // test function
 let bill = 100;
-console.log(`Tip for ${bill}: $${calculateTip});
+console.log(`Tip for ${bill}: $${calculateTip}'); 
 
