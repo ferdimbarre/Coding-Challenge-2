@@ -7,12 +7,12 @@ let totalValue = bill + tip; // creates functiom to express total value
 console.log(`The bill was $${bill}, the tip was $${tip}, and the total value is $${totalValue}`); // outputs expression 
 
 // create a function 
-function calculateTip (bill, tip) {
+function calculateTip(bill) {
+    let tip = (bill >= 50 && bill <= 300) ? (bill * 0.15) : (bill * 0.20); 
+    console.log(`Tip for ${bill}: $${tip}`)
     return tip
-};
+}
 console.log(calculateTip);
 
-// test function
-let bill = 100;
-console.log(`Tip for ${bill}: $${calculateTip}'); 
+
 
