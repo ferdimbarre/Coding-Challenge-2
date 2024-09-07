@@ -6,5 +6,13 @@ console.log(`Tip for ${bill}: $${tip}`); // Output will show 15% tip for bills $
 let totalValue = bill + tip; // creates functiom to express total value 
 console.log(`The bill was $${bill}, the tip was $${tip}, and the total value is $${totalValue}`); // outputs expression 
 
+// create a function 
+function calculateTip (bill, tip) {
+    return tip
+};
+console.log(calculateTip);
 
+// test function
+let bill = 100;
+console.log(`Tip for ${bill}: $${calculateTip});
 
